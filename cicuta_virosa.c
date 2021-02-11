@@ -238,6 +238,7 @@ void cicuta_virosa(void)
     uint64_t id = 0;
     redeem_racers = calloc(1, REDEEM_RACERS_COUNT * sizeof(pthread_t));
     increase_limits(10240);
+    free(race_flag);
 
     cicuta_log("Stage 1: race for voucher ivace uaf");
 
